@@ -44,7 +44,6 @@ else
     {
         if (i % 2 != 0)
             Console.Write(i + " ");
-        // text to display if the num is even
-        
+        else Console.WriteLine($"No odd number(s) between {a} and {b}.");
     }
 }
