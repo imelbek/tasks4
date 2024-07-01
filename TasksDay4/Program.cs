@@ -1,5 +1,5 @@
 ﻿/*
- * Used tools are "if-else" condition, "goto"
+ * Used tools are "if-else" condition, "goto", continue
  */
 
 // Task 1: There are 2 values (a and b) where a < b. Find Sum of the values between a and b
@@ -28,7 +28,7 @@ else
     
     Console.WriteLine($"Sum between {a} and {b} is {res}");
 }
-
+Console.Write("\n");
 
 // Task 2: There are 2 values (a and b) where a < b. Display all odd nums (num % 2 = 1)
 
@@ -44,6 +44,12 @@ else
     {
         if (i % 2 != 0)
             Console.Write(i + " ");
-        else Console.WriteLine($"No odd number(s) between {a} and {b}.");
+        else continue;
     }
 }
+
+Console.WriteLine("\n");
+
+
+// Task 3: Make a rectangular, triangle (2 types) and diamond shapes with "*", " " and "/n"
+
